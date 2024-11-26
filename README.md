@@ -3,7 +3,7 @@ Tutorials
 Enemy Tracking Player Tutorial
 -------------------------------
 29/10/2024
-
+This tutorial is for a script that causes an object to follow another object which could be used for enemies tracking and folowing the player.
 
 
 Random Enemy Movement Tutorial
