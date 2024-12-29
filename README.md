@@ -1,10 +1,20 @@
 Tutorials
 -------------------------------
-Enemy Tracking Player Tutorial
+Enemy Following Player Tutorial
 -------------------------------
 29/10/2024
 
 This tutorial is for a script that causes an object to follow another object which could be used for enemies tracking and folowing the player.
+
+1/11/2024
+
+
+
+
+
+29/12/2024
+
+Finished write up for Enemy Following Player tutorial.
 
 -------------------------------
 Random Enemy Movement Tutorial
@@ -51,7 +61,10 @@ public class enemyBehaviour : MonoBehaviour
         }
     }
 }
-25//11/2024 
+
+Originally I had not had the timer change its time randomly so the game objects would all change direction at the same time. I rectified this by having the timer set to a random value between 1 and 3 seconds every time the timer hit 0.
+
+25/11/2024 
 Finished write up for the RandomEnemyMovement tutorial
 
 -------------------------------
