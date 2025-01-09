@@ -21,7 +21,7 @@ Random Enemy Movement Tutorial
 -------------------------------
 12/11/2024
 
-I decided to do a tutorial of a script I used last year for randomised enemy movement. I did this as it is simple to program and is easy to explain as it doesn't use complicated syntax and can be configured to the individuals needs.
+I decided to do a tutorial of a script for randomised enemy movement. I did this as it is simple to program and is easy to explain as it doesn't use complicated syntax and can be configured to the individuals needs.
 I created a new unity project and created a 2D circle sprite and attached the script to it, I reduced the enemySpeed variable to 2f and also reduced the size of the sprite so that the sprite won't go off the screen as quickly in play mode.
 Next I will start a written tutorial.
 I may change this so that it is applicable to the 3D environment in my prototype game.
@@ -63,7 +63,11 @@ public class enemyBehaviour : MonoBehaviour
     }
 }
 
-Originally I had not had the timer change its time randomly so the game objects would all change direction at the same time. I rectified this by having the timer set to a random value between 1 and 3 seconds every time the timer hit 0.
+Originally I had not had the timer change its time randomly so the game objects would all change direction at the same time. I rectified this by having the timer set to a random value between 1 and 3 seconds every time the timer hit 0 which the <= allowed me to.
+
+14/11/2024
+I was having compiler errors when I tried testing the script and I could not find the issue. I then found that I had Random.insideUnitSphere was incorrectly spelt at the time.
+
 
 25/11/2024 
 Finished write up for the RandomEnemyMovement tutorial
