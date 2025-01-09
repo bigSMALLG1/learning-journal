@@ -12,16 +12,9 @@ I used the unity project for my prototype game to showcase this tutorial as the 
 I used unity docs and videos to help me learn how to program this as I had not attempted this in the 3D environment before. I found that you can program this using a single line of code, I just had to add a rigidbody component to the enemy for gravitational forces
 to apply to it, so that the enemy wouldn't float in to the sky if my player jumped.
 
-
-
-
-
-
-
-
 29/12/2024
 
-Finished write up for Enemy Following Player tutorial.
+Finished write up for Enemy Following Player tutorial, adjusted speed and added neccessary components.
 
 -------------------------------
 Random Enemy Movement Tutorial
@@ -76,15 +69,21 @@ Originally I had not had the timer change its time randomly so the game objects 
 14/11/2024
 I was having compiler errors when I tried testing the script and I could not find the issue. I then found that I had Random.insideUnitSphere was incorrectly spelt at the time.
 
-
 25/11/2024 
 Finished write up for the RandomEnemyMovement tutorial
 
 -------------------------------
-Player Movement Tutorial
+First Person Camera Tutorial
 -------------------------------
-I wanted my player to be able to jump and have a delay inbetween jumps so that it wasn't spammable. I had never programmed this before so I researched using Unity docs and videos to help me.
+08/01/2025
+Started my First Person Camera Tutorial that I was using in my prototype game.
+
+09/01/2025
+Finished write up for First Person Camera Tutorial
 
 -------------------------------
-Item Pickup Tutorial
+First Person Movement Tutorial
 -------------------------------
+
+02/02/2025
+I wanted my player to be able to jump and have a delay inbetween jumps so that it wasn't spammable. I had never programmed this before so I researched using Unity docs and videos to help me.
