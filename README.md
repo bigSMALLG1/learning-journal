@@ -8,6 +8,13 @@ This tutorial is for a script that causes an object to follow another object whi
 
 1/11/2024
 
+I used the unity project for my prototype game to showcase this tutorial as the same script is used in my prototype.
+I used unity docs and videos to help me learn how to program this as I had not attempted this in the 3D environment before. I found that you can program this using a single line of code, I just had to add a rigidbody component to the enemy for gravitational forces
+to apply to it, so that the enemy wouldn't float in to the sky if my player jumped.
+
+
+
+
 
 
 
@@ -76,6 +83,7 @@ Finished write up for the RandomEnemyMovement tutorial
 -------------------------------
 Player Movement Tutorial
 -------------------------------
+I wanted my player to be able to jump and have a delay inbetween jumps so that it wasn't spammable. I had never programmed this before so I researched using Unity docs and videos to help me.
 
 -------------------------------
 Item Pickup Tutorial
