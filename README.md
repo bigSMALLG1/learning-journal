@@ -22,6 +22,7 @@ Random Enemy Movement Tutorial
 12/11/2024
 
 I decided to do a tutorial of a script for randomised enemy movement. I did this as it is simple to program and is easy to explain as it doesn't use complicated syntax and can be configured to the individuals needs.
+I had experience with making a similar script to this in the past, which is another reason as to why I chose it for my first tutorial.
 I created a new unity project and created a 2D circle sprite and attached the script to it, I reduced the enemySpeed variable to 2f and also reduced the size of the sprite so that the sprite won't go off the screen as quickly in play mode.
 Next I will start a written tutorial.
 I may change this so that it is applicable to the 3D environment in my prototype game.
