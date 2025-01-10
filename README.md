@@ -73,7 +73,7 @@ I was having compiler errors when I tried testing the script and I could not fin
 Finished write up for the RandomEnemyMovement tutorial
 
 -------------------------------
-First Person Camera Tutorial
+First Person Movement Tutorial
 -------------------------------
 08/01/2025
 Started my First Person Camera Tutorial that I was using in my prototype game.
@@ -82,8 +82,12 @@ Started my First Person Camera Tutorial that I was using in my prototype game.
 Finished write up for First Person Camera Tutorial
 
 -------------------------------
-First Person Movement Tutorial
+Jump Mechanic Tutorial
 -------------------------------
 
-02/02/2025
+01/01/2025
+
+I planned to add this in to my prototype game which had my first person movement script, however my player was speeding off and had no ground drag so I added a ground check to my prototype game and added some ground drag when the player was grounded. I also added a speed limiter.
+
+02/01/2025
 I wanted my player to be able to jump and have a delay inbetween jumps so that it wasn't spammable. I had never programmed this before so I researched using Unity docs and videos to help me.
