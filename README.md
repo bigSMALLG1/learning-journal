@@ -112,5 +112,5 @@ In my game I wanted there to be a jump mechanic as a way of jumping over the sma
 
 9/12/2024
 
-I added a speedboost game object that doubles the players speed for 2 seconds. The speedboost is destroyed upon collision from the player.
+I added a speedboost game object that doubles the players speed for 2 seconds. The speedboost is destroyed upon collision from the player. The speedboosts are triggers and I had issues with them disappearing when starting the game, I found out that I had rigidbodies on them and because they were triggers they were falling through the map.
 
