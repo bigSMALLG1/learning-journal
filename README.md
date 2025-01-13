@@ -93,6 +93,25 @@ I planned to add this in to my prototype game which had my first person movement
 I wanted my player to be able to jump and have a delay inbetween jumps so that it wasn't spammable. I had never programmed this before so I researched using Unity docs and videos to help me.
 
 
+------------------------------
 Prototype Game 
+------------------------------
 
+12/12/2024
+
+I started my prototype game before I finished my tutorials as I wanted to use the scripts from the tutorials in my game, so I developed the scripts in the prototype and then made the tutorials from them excluding one.
+To start off with I wanted to use first person movement which I had not used before. I had mostly only programmed in a 2D environment apart from when learning unity. It was not as simple as attaching the camera to the player, I had to account for moving the camera in accordance with moving the orientation of the player, as well as where the camera was positioned on to the player. I solved this by creating game objects for the camera, camera holder, camera position and orientation of the player and setting the camera position to the positition of the orientation of the player. 
+
+
+19/12/2024
+
+In my game I wanted there to be a jump mechanic as a way of jumping over the small ankle biting enemies that chase you. In doing this I had issues with my player jumping very high in to the sky in the direction of where my mouse was pointed. To solve this I added an air multiplier to the movement speed when the player was not grounded, slowing down the jump. I also added a jump cooldown so that this could not be spammed, the cooldown would reset when the player was ready to jump and in contact with the ground which I also used a raycast to detect.
+
+20/12/2024
+
+
+
+9/12/2024
+
+I added a speedboost game object that doubles the players speed for 2 seconds. The speedboost is destroyed upon collision from the player.
 
