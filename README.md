@@ -79,6 +79,8 @@ First Person Movement Tutorial
 
 Started my First Person Camera Tutorial that I was using in my prototype game. 
 
+Assigned script to the camera parent object as the script being used on the actual camera was buggy due to the rigidbody.
+
 01/01/2025
 
 Finished write up for First Person Camera Tutorial
