@@ -91,3 +91,8 @@ I planned to add this in to my prototype game which had my first person movement
 
 02/01/2025
 I wanted my player to be able to jump and have a delay inbetween jumps so that it wasn't spammable. I had never programmed this before so I researched using Unity docs and videos to help me.
+
+
+Prototype Game 
+
+
