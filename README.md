@@ -75,10 +75,12 @@ Finished write up for the RandomEnemyMovement tutorial
 -------------------------------
 First Person Movement Tutorial
 -------------------------------
-08/01/2025
-Started my First Person Camera Tutorial that I was using in my prototype game.
+01/01/2025
 
-09/01/2025
+Started my First Person Camera Tutorial that I was using in my prototype game. 
+
+01/01/2025
+
 Finished write up for First Person Camera Tutorial
 
 -------------------------------
@@ -87,7 +89,7 @@ Jump Mechanic Tutorial
 
 01/01/2025
 
-I planned to add this in to my prototype game which had my first person movement script, however my player was speeding off and had no ground drag so I added a ground check to my prototype game and added some ground drag when the player was grounded. I also added a speed limiter.
+I planned to add this in to my prototype game which had my first person movement script, however my player was speeding off and had no ground drag so I added a ground check to my prototype game and added some ground drag when the player was grounded. I used a raycast for the ground check so that the player would jump only when it's bool variable (readyToJump) was true and that the bool variable (grounded) was true. I also added a speed limiter.
 
 02/01/2025
 I wanted my player to be able to jump and have a delay inbetween jumps so that it wasn't spammable. I had never programmed this before so I researched using Unity docs and videos to help me.
@@ -112,5 +114,7 @@ In my game I wanted there to be a jump mechanic as a way of jumping over the sma
 
 9/12/2024
 
-I added a speedboost game object that doubles the players speed for 2 seconds. The speedboost is destroyed upon collision from the player. The speedboosts are triggers and I had issues with them disappearing when starting the game, I found out that I had rigidbodies on them and because they were triggers they were falling through the map.
+I added a speedboost game object that doubles the players speed for 2 seconds. The speedboost is destroyed upon collision from the player. The speedboosts are triggers and I had issues with them disappearing when starting the game, I found out that I had rigidbodies on them and because they were triggers they were phasing through the ground terrain so I removed the rigidbodies.
+
+
 
